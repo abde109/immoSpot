@@ -1,3 +1,8 @@
+.container-box{
+  width:70%; /*ajout*/
+  margin:0 auto; /*ajout*/
+}
+
 .popular__container{
     padding:1rem 0 5rem;
   }
