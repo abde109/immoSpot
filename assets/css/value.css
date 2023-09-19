@@ -138,10 +138,15 @@
 
 .footer__logo{
     align-items: center;
-    margin-bottom: .75rem;
+    
 }
 .logo-footer{
-    width: 150px;
+    width: 180px;
+    margin-left: -10px;
+    margin-bottom: 1.2rem;
+}
+.logo-footer:hover{
+    filter: invert(46%) sepia(82%) saturate(423%) hue-rotate(115deg) brightness(86%) contrast(86%);
 }
 .footer__logo i{
     font-size: 1.25rem;
@@ -159,6 +164,7 @@
 }
 .footer__content{
     grid-template-columns: repeat(2, max-content);
+    gap: 2.5rem 4rem;
 }
 
 .footer__title{
