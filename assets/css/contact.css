@@ -1,9 +1,5 @@
 .contact__container{
-    width:70%; /*ajout*/
-    margin:0 auto; /*ajout*/
     row-gap: 2rem;
-    display:grid; /*ajout*/
-    grid-template-columns: repeat(2, 1fr); /*ajout*/
 }
 
 .contact__images{
