@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -7,12 +7,12 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(228, 66%, 53%);
-  --first-color-alt: hsl(228, 66%, 47%);
-  --first-color-light: hsl(228, 62%, 59%);
-  --first-color-lighten: hsl(228, 100%, 97%);
-  --second-color: hsl(25, 83%, 53%);
-  --title-color: hsl(228, 57%, 28%);
+  --first-color: #1b9476;
+  --first-color-alt: #169273;
+  --first-color-light: #8bd59e;
+  --first-color-lighten: hsl(164, 100%, 97%);
+  --second-color: #d0b07f;
+  --title-color: #0c4f40;
   --text-color: hsl(228, 15%, 50%);
   --text-color-light: hsl(228, 12%, 75%);
   --border-color: hsl(228, 99%, 98%);
@@ -21,7 +21,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -161,6 +161,8 @@ button {
 
 
 /*=============== POPULAR ===============*/
+
+/* Swiper class */
 
 /* Swiper class */
 
