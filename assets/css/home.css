@@ -150,6 +150,7 @@
 }
 
 .logo__img img{
+    filter: invert(45%) sepia(62%) saturate(5676%) hue-rotate(146deg) brightness(94%) contrast(79%);
     height: 60px;
     opacity: .2;
     transition: .3s;

@@ -8,6 +8,11 @@
     transition: .4s;
 }
 
+.logo__header{
+    filter: invert(100%) sepia(52%) saturate(204%) hue-rotate(84deg) brightness(113%) contrast(101%);
+    width:40%;
+}
+
 .nav{
     height: var(--header-height);
     display: flex;

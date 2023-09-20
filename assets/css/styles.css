@@ -97,7 +97,7 @@ button {
 }
 
 /*=============== THEME ===============*/
-.change-theme {
+.change-theme{
   font-size: 1.25rem;
   color: #fff;
   cursor: pointer;
@@ -107,16 +107,74 @@ button {
   color: var(--first-color);
 }
 
-
 /*========== Variables Dark theme ==========*/
-
+body.dark-theme{
+  --first-color: #1b9476;
+  --second-color: #cfa362;
+  --title-color: #ffffff;
+  --text-color: hsl(0, 0%, 91%);
+  --text-color-light: hsl(228, 12%, 75%);
+  --border-color: #232323;
+  --body-color: #0c0c0c;
+  --container-color: #1a1919;
+}
 
 /*========== 
     Color changes in some parts of 
     the website, in dark theme 
 ==========*/
+.dark-theme .home__search,
+.dark-theme .swiper-button-next,
+.dark-theme .swiper-button-prev{
+border: 3px solid var(--border-color);
+}
 
+.dark-theme .nav__menu,
+.dark-theme .home__img,
+.dark-theme .popular__card:hover,
+.dark-theme .value__img,
+.dark-theme .accordion.open,
+.dark-theme .accordion-open .value__accordion-icon,
+.dark-theme .accordion-open .value__accordion-arrow,
+.dark-theme .contact__img,
+.dark-theme .contact__card-box:hover,
+.dark-theme .scrollup{
+  box-shadow: none;
+}
 
+.dark-theme .value__orbe,
+.dark-theme .value__accordion-icon,
+.dark-theme .value__accordion-arrow,
+.dark-theme .contact__orbe,
+.dark-theme .contact__card i,
+.dark-theme .contact__card-button,
+.dark-theme .subscribe__container{
+  background-color: var(--container-color);
+}
+
+.dark-theme .subscribe__container{
+  border: 6px solid var(--border-color);
+}
+
+.dark-theme .subscribe__description{
+  color: var(--text-color);
+}
+
+.dark-theme ::-webkit-scrollbar{
+  background-color: hsl(146, 4%, 15%);
+}
+
+.dark-theme ::-webkit-scrollbar-thumb{
+  background-color: hsl(146, 4%, 25%);
+}
+
+.dark-theme ::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(146, 4%, 35%);
+}
+
+.dark-theme .logo-footer{
+  filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(318deg) brightness(104%) contrast(102%);
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
@@ -155,8 +213,17 @@ button {
 
 
 /* Change background header */
+.scroll-header{
+  background-color: var(--body-color);
+  box-shadow: 0 1px 4px hsla(146, 4%, 15%, .1);
+}
 
-
+.scroll-header .logo__header{
+  filter: invert(0%) sepia(89%) saturate(97%) hue-rotate(113deg) brightness(99%) contrast(105%);
+}
+.scroll-header .change-theme {
+color: var(--title-color);
+}
 /* Active link */
 
 
@@ -197,7 +264,7 @@ button {
 .scrollup{
   position: fixed;
   right: 1rem;
-  bottom: 8rem;
+  bottom: -30%;
   background-color: var(--container-color);
   box-shadow: hsla(145, 66%, 45%, .1);
   display: inline-flex;
@@ -208,9 +275,15 @@ font-size: 1.25rem;
 z-index: var(--z-tooltip);
 transition: .3s;
 }
+.scrollup:hover{
+  transform: translateY(-.25rem);
+  color: var(--first-color);
+}
 
 /* Show Scroll Up*/
-
+.show-scroll{
+  bottom: 8rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
@@ -220,7 +293,6 @@ transition: .3s;
 /* For large devices */
 
 /* For 2K & 4K resolutions */
-
   
 
   
