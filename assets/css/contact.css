@@ -1,9 +1,5 @@
-.contact__container{
-    width:70%; /*ajout*/
-    margin:0 auto; /*ajout*/
+.contact__container{ 
     row-gap: 2rem;
-    display:grid; /*ajout*/
-    grid-template-columns: repeat(2, 1fr); /*ajout*/
 }
 
 .contact__images{
@@ -89,5 +85,5 @@
 }
 
 .contact__card-box:hover{
-    box-shadow: 0 8px 24px hsla(2228, 66%, 45%, .1);
+    box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1);
 }
