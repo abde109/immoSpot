@@ -175,6 +175,7 @@ border: 3px solid var(--border-color);
 .dark-theme .logo-footer{
   filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(318deg) brightness(104%) contrast(102%);
 }
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
@@ -218,9 +219,15 @@ border: 3px solid var(--border-color);
   box-shadow: 0 1px 4px hsla(146, 4%, 15%, .1);
 }
 
-.scroll-header .logo__header{
-  filter: invert(0%) sepia(89%) saturate(97%) hue-rotate(113deg) brightness(99%) contrast(105%);
+.dark-theme .scroll-header .logo__header{
+ filter: invert(100%) sepia(4%) saturate(905%) hue-rotate(265deg) brightness(120%) contrast(100%);
 }
+
+.scroll-header .logo__header{
+  filter: invert(0%) sepia(6%) saturate(7466%) hue-rotate(346deg) brightness(89%) contrast(95%);
+ }
+ 
+
 .scroll-header .change-theme {
 color: var(--title-color);
 }
