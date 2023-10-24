@@ -19,19 +19,7 @@ ImmoSpot est un projet de location de résidence que nous avons réalisé en gro
 - Javascript
 
 # Captures d'écran
-- Écran pc ![immospotfullpage](https://github.com/abde109/immoSpot/assets/126266227/254affd5-ba0c-4ea8-a3ab-64019d6bae4c)
-
-- Écran Tablette
-
-  ![immospotsurfaceduo](https://github.com/abde109/immoSpot/assets/126266227/fee59fb0-c368-4247-a346-c5c4536d2886)
-
-- Écran smartphone
-
-![immospotphone](https://github.com/abde109/immoSpot/assets/126266227/570e6218-6a89-4ff2-934b-cfa1b84c6bbe)
-
-- Écran smartphone : navbar moderne
-  
-  ![pagehomephone](https://github.com/abde109/immoSpot/assets/126266227/85b630e7-9d0b-49dc-a7c8-8f136a1fb3a0)
+![Beige New Product Mockup Now Available Facebook Post](https://github.com/abde109/immoSpot/assets/126266227/3959e685-9362-4581-80ff-347d49f4e564)
 
 # Auteurs
 - Hanae Manekoudi
